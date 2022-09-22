@@ -6,4 +6,9 @@ class FakeClass
     {
         return 'bar';
     }
+
+    public function fizz(): string
+    {
+        return 'bazz';
+    }
 }

@@ -7,5 +7,6 @@ class FakeClassTest extends PHPUnit\Framework\TestCase
     {
         $fake = new FakeClass();
         $this->assertEquals('bar', $fake->foo());
+        $this->assertEquals('bazz', $fake->fizz());
     }
 }

@@ -7,6 +7,10 @@ bash:
 test:
 	docker-compose exec server bash -c "./bin/phpunit --testdox --color"
 
+coverage:
+	docker-compose exec server bash -c "php -dxdebug.mode=coverage ./bin/phpunit --testdox --color --coverage-html coverage"
+.PHONY: coverage
+
 stop:
 	docker-compose stop
 
