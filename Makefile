@@ -1,23 +1,32 @@
+php := server
+docker := docker-compose
+compose := $(docker) --file docker-compose.yml
+docker_exec := $(compose) exec
+args = $(filter-out $@,$(MAKECMDGOALS))
+
 up:
-	docker-compose up -d
+	$(docker) up -d
 
 bash:
-	docker-compose exec server bash
+	$(docker_exec) $(php) bash
 
 test:
-	docker-compose exec server bash -c "./bin/phpunit --testdox --color"
+	$(docker_exec) $(php) bash -c "./bin/phpunit --testdox --color"
 
 coverage:
-	docker-compose exec server bash -c "php -dxdebug.mode=coverage ./bin/phpunit --testdox --color --coverage-html coverage"
+	$(docker_exec) $(php) bash -c "php -dxdebug.mode=coverage ./bin/phpunit --testdox --color --coverage-html coverage"
 .PHONY: coverage
 
 stop:
-	docker-compose stop
+	$(docker) stop
 
 rm:
-	docker-compose rm server --force
+	$(docker) rm $(php) --force
 
 build:
-	docker-compose up -d --build
+	$(docker) up -d --build
 
 rebuild: stop rm build
+
+composer:
+	$(docker_exec) $(php) composer $(args)

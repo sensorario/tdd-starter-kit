@@ -2,7 +2,7 @@
 
 ## v1.0 - (15/08/2022)
 
- - add docker configuration
- - add composer
- - add phpunit support
- - add xdebug for coverage
+ - add docker configuration with composer to run php projects
+ - add phpunit support for test driven development
+ - add xdebug for coverage to support the code coverage
+ - add Makefile target to run composer in php container
