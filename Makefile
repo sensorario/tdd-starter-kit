@@ -29,7 +29,7 @@ rm:
 build:
 	$(docker) up -d --build
 
-rebuild: stop rm build
+rebuild: stop rm build install
 
 composer:
 	$(docker_exec) $(php) composer $(args)
