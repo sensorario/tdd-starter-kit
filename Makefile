@@ -10,6 +10,9 @@ up:
 bash:
 	$(docker_exec) $(php) bash
 
+install:
+	$(docker_exec) $(php) bash -c "composer install"
+
 test:
 	$(docker_exec) $(php) bash -c "./bin/phpunit --testdox --color"
 
