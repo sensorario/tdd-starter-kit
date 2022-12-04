@@ -9,3 +9,4 @@
  - add mod rewrite and relative htaccess
  - add installation instruction in readme file
  - all vendor libraries are installed after `make up`
+ - add vendor autoload in public/index.php file
