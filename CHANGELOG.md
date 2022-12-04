@@ -8,3 +8,4 @@
  - add Makefile target to run composer in php container
  - add mod rewrite and relative htaccess
  - add installation instruction in readme file
+ - all vendor libraries are installed after `make up`
