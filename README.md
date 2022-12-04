@@ -1,7 +1,7 @@
 # Tdd Starter Kit
 
 ```
-curl -L https://github.com/sensorario/tdd-starter-kit/archive/refs/tags/v1.0.9.zip | tar xz
+curl -L https://github.com/sensorario/tdd-starter-kit/archive/refs/tags/v1.0.11.zip | tar xz
 ```
 
 ## Start
