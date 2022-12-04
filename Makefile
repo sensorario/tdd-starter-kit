@@ -9,6 +9,7 @@ test:
 
 up:
 	$(docker) up -d
+	make install
 
 bash:
 	$(docker_exec) $(php) bash
