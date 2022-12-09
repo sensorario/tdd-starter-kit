@@ -1,5 +1,9 @@
 # Tdd Starter kit
 
+## v2.0 - (09/12/2022)
+
+ - update php version to 8.2
+
 ## v1.0 - (15/08/2022)
 
  - add docker configuration with composer to run php projects
