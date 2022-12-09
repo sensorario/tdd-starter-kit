@@ -1,5 +1,9 @@
 # Tdd Starter kit
 
+## v1.1 - (09/12/2022)
+
+ - add tool to run test on every src or tests content update
+
 ## v1.0 - (15/08/2022)
 
  - add docker configuration with composer to run php projects
