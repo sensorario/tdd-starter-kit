@@ -1,7 +1,7 @@
 # Tdd Starter Kit
 
 ```
-curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz
+curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz ; mv tdd-starter-kit-main <project>
 ```
 
 ## Start
