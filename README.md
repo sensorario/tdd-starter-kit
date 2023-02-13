@@ -10,7 +10,7 @@ After the download run `make up`. After a while everything will be ready and all
 
 ## Test automation
 
-Run ./bin/robo 
+Run the command `./bin/robo watch:code` to run tests everytime some php code inside src and tests folder change.
 
 ## Lumen
 
