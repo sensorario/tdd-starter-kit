@@ -1,12 +1,9 @@
 # Tdd Starter kit
 
-## v2.0 - (09/12/2022)
+## v1.0 - (09/12/2022)
 
  - update php version to 8.2
  - fix readme file with better robo command
-
-## v1.0 - (15/08/2022)
-
  - add docker configuration with composer to run php projects
  - add phpunit support for test driven development
  - add xdebug for coverage to support the code coverage
