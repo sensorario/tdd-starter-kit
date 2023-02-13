@@ -3,6 +3,7 @@
 ## v2.0 - (09/12/2022)
 
  - update php version to 8.2
+ - fix readme file with better robo command
 
 ## v1.0 - (15/08/2022)
 
