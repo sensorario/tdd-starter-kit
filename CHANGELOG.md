@@ -1,8 +1,9 @@
 # Tdd Starter kit
 
-## v1.1 - (??/??/????)
+## v1.1 - (06/06/2023)
 
  - add script to generate docker-compose.yml filie on free port number
+ - improve installer script: install and init in one single line
 ## v1.0 - (09/12/2022)
 
  - update php version to 8.2
