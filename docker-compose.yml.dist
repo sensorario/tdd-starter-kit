@@ -6,4 +6,4 @@ services:
     volumes:
       - ./:/var/www/html
     ports:
-      - "8896:80"
+      - "{{port}}:80"
