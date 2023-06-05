@@ -1,7 +1,7 @@
 # Tdd Starter Kit
 
 ```terminal
-curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz ; mv tdd-starter-kit-main <project>
+curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz ; mv tdd-starter-kit-main <project> ; cd <project> ; php init.php
 ```
 
 ## Init
