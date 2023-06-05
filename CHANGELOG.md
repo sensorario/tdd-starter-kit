@@ -2,7 +2,7 @@
 
 ## v1.1 - (??/??/????)
 
- - ALLOCATE FREE PORT
+ - add script to generate docker-compose.yml filie on free port number
 ## v1.0 - (09/12/2022)
 
  - update php version to 8.2
