@@ -23,7 +23,6 @@ Run the command `./bin/robo watch:code` to run tests everytime some php code ins
 ## Lumen
 
 ```terminal
-curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz ; mv tdd-starter-kit-main <project>
 rm -rf public
 composer create-project --prefer-dist laravel/lumen && cp -r lumen/** . && rm -rf lumen
 ```
