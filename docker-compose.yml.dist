@@ -1,6 +1,7 @@
 version: '3.7'
 services:
   server:
+    container_name: server
     build:
       context: ./docker/server/
     volumes:
