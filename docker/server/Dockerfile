@@ -7,4 +7,4 @@ RUN /etc/init.d/apache2 restart
 RUN pecl install xdebug && \
     docker-php-ext-enable xdebug
 RUN apt-get update
-RUN apt-get install -y git zip
+RUN apt-get install -y git zip vim
