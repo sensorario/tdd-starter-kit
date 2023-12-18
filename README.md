@@ -1,7 +1,15 @@
 # Tdd Starter Kit
 
+## curl
+
 ```terminal
 curl -L https://github.com/sensorario/tdd-starter-kit/archive/main.zip | tar xz ; mv tdd-starter-kit-main <project> ; cd <project> ; php init.php
+```
+
+## wget
+
+```terminal
+wget https://github.com/sensorario/tdd-starter-kit/archive/main.zip -O main.zip && unzip main.zip && mv tdd-starter-kit-main avocado && cd avocado && php init.php
 ```
 
 ## Init
