@@ -1,6 +1,6 @@
 php := server
-docker := docker-compose
-compose := $(docker) --file docker-compose.yml
+docker := docker compose
+compose := $(docker) --file compose.yml
 docker_exec := $(compose) exec
 args = $(filter-out $@,$(MAKECMDGOALS))
 

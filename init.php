@@ -1,9 +1,9 @@
 <?php
 
-$fileContents = file_get_contents('docker-compose.yml.dist');
+$fileContents = file_get_contents('compose.yml.dist');
 $generatedContents = str_replace('{{port}}', findFreePort(8894), $fileContents);
 
-file_put_contents('docker-compose.yml', $generatedContents);
+file_put_contents('compose.yml', $generatedContents);
 
 function findFreePort($startPort)
 {
