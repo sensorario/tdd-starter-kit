@@ -1,5 +1,9 @@
 # Tdd Starter kit
 
+## v1.3 - (16/02/2025)
+
+- update php version to 8.4
+
 ## v1.2 - (07/11/2024)
 
 - fix script of compose.yml generation
